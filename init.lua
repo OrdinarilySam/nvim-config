@@ -1,0 +1,22 @@
+require("sam.plugins-setup")
+
+require("sam.core.options")
+require("sam.core.keymaps")
+require("sam.core.colorscheme")
+
+require("sam.plugins.comment")
+require("sam.plugins.nvimtree")
+require("sam.plugins.lualine")
+require("sam.plugins.telescope")
+require("sam.plugins.nvim-cmp")
+require("sam.plugins.autopairs")
+require("sam.plugins.treesitter")
+require("sam.plugins.gitsigns")
+require("sam.plugins.tabout")
+require("sam.plugins.obsidian")
+require("sam.plugins.luasnip")
+-- require("sam.plugins.transparent")
+
+require("sam.plugins.lsp.mason")
+require("sam.plugins.lsp.lspconfig")
+require("sam.plugins.lsp.null-ls")

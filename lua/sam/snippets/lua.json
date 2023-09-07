@@ -1,0 +1,12 @@
+{
+  "protected call": {
+    "prefix": "pc",
+    "body": [
+      "local setup, $1 = pcall(require, \"$2\")",
+      "if not setup then",
+      "    return",
+      "end",
+      "$3"
+    ]
+  }
+}

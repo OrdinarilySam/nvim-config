@@ -1,0 +1,16 @@
+{
+  "svelte boilterplate": {
+    "prefix": "snew",
+    "body": [
+      "<script lang=\"ts\">",
+      "$1",
+      "</script>",
+      "<div>",
+      "$2",
+      "</div>",
+      "<style lang=\"scss\">",
+      "$0",
+      "</style>"
+    ]
+  }
+}
